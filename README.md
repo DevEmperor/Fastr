@@ -2,12 +2,12 @@
 
 
 
-# **<u>Fastr</u>**
+# Fastr
 
 **Small python script to transcribe speech**
 
 - Written with Python 3.9.1
-- Compatible with Linux, Windows (and maybe Mac?)
+- Compatible with all **Linux** distributions
 
 
 
@@ -35,17 +35,15 @@
 
    `sudo apt-get install python3-pandas python3-pyaudio`
 
+   On other systems this can easily be done by using either the systems packet-manager or using ***pip***:
+
+   `pip3 install pandas pyaudio`
+
    
 
-4. Install the "SpeechRecognition"-package using pip:
+4. Install the "**SpeechRecognition**"-package using pip:
 
    `pip3 install SpeechRecognition`
-
-
-
-### Windows
-
-Coming soon... ;-)
 
 
 
