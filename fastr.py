@@ -48,7 +48,7 @@ try:
                 break
             continue
 
-    with open("./language_codes.dat", "r") as f:
+    with open(os.getcwd() + "/language_codes.dat", "r") as f:
         codes = f.read().splitlines()  # Read all language-codes
 
     while True:
