@@ -75,7 +75,7 @@ try:
         print(f"[{GREEN}+{RESET}] Now start talking and I'll try to recognize what you said...")
         with m as source:
             try:
-                r.pause_threshold = 2  # Stop after 3 seconds of silence
+                r.pause_threshold = 2  # Stop after 2 seconds of silence
                 audio = r.listen(m, timeout=10)  # Start listening...
             except sr.WaitTimeoutError:  # ... and exit if there isn't any signal
                 exit(f"[{RED}-{RESET}] Didn't get any input signal. Exiting! :-(")
